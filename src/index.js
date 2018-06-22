@@ -1,1 +1,1 @@
-console.log('webpack+babel');
+console.log('webpack: js+css');

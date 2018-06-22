@@ -94,18 +94,29 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nconsole.log('webpack+babel');\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("\n\nconsole.log('webpack: js+css');\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
-/***/ 0:
+/***/ "./src/scss/main.scss":
 /*!****************************!*\
-  !*** multi ./src/index.js ***!
+  !*** ./src/scss/main.scss ***!
   \****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__(/*! ./src/index.js */\"./src/index.js\");\n\n\n//# sourceURL=webpack:///multi_./src/index.js?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/scss/main.scss?");
+
+/***/ }),
+
+/***/ 0:
+/*!*************************************************!*\
+  !*** multi ./src/index.js ./src/scss/main.scss ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("__webpack_require__(/*! ./src/index.js */\"./src/index.js\");\nmodule.exports = __webpack_require__(/*! ./src/scss/main.scss */\"./src/scss/main.scss\");\n\n\n//# sourceURL=webpack:///multi_./src/index.js_./src/scss/main.scss?");
 
 /***/ })
 
